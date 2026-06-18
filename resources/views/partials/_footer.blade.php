@@ -4,7 +4,7 @@
         <div class="row footer_bg">
             <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="footer_logo">
-                    <img src="frontend/img/logo.png" alt="Velsuma" />
+                    <img src="{{ asset('frontend/img/logo/White_logo.png') }}" alt="Velsuma" />
                     <p>Designed for Modern Living. Crafted for Lasting Impressions.</p>
                     <p>At Velsuma, we create premium interior solutions that combine elegant aesthetics, intelligent functionality, and superior craftsmanship. From luxury modular kitchens to contemporary soffit systems and durable SPC flooring, every solution is designed to transform spaces into timeless experiences.</p>
                 </div>

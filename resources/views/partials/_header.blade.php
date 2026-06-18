@@ -12,7 +12,12 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-6 col-xl-2">
-        <h1 class="mb-0 site-logo"><a href="/"><strong style="color: #e74c3c; font-size: 24px;">VELSUMA</strong></a></h1>
+        <h1 class="mb-0 site-logo">
+          <a href="/">
+            <img class="logo-light" src="{{ asset('frontend/img/logo/logo.png') }}" alt="Velsuma white logo">
+            <img class="logo-dark" src="{{ asset('frontend/img/logo/logo.png') }}" alt="Velsuma dark logo">
+          </a>
+        </h1>
       </div>
       <div class="col-12 col-md-10 d-none d-xl-block">
         <nav class="site-navigation position-relative text-right" role="navigation">

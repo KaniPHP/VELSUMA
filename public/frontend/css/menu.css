@@ -274,6 +274,10 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
 .sticky-wrapper .site-navbar .site-menu-toggle {
 color: #fff; }
 .site-logo img{width:150px;}
+.site-logo .logo-dark { display: none; }
+.site-logo .logo-light { display: inline-block; }
+.sticky-wrapper.is-sticky .site-logo .logo-light { display: none; }
+.sticky-wrapper.is-sticky .site-logo .logo-dark { display: inline-block; }
 .sticky-wrapper .site-navbar .site-logo a {
 color: #fff; }
 .sticky-wrapper .site-navbar .site-menu > li > a {
