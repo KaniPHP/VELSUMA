@@ -2,10 +2,10 @@
 
 @section('content')
 <!-- Hero Section -->
-<section style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: white; padding: 80px 20px; text-align: center;">
+<section style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 80px 20px; text-align: center;">
     <div class="container" style="max-width: 1000px; margin: 0 auto;">
         <h1 style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Frequently Asked Questions</h1>
-        <p style="font-size: 18px; color: #ecf0f1; line-height: 1.6;">Everything You Need to Know About Velsuma's Products and Services</p>
+        <p style="font-size: 18px; color: #1f3a5d; line-height: 1.6;">Answers to common questions about Velsuma products and services</p>
     </div>
 </section>
 
@@ -218,11 +218,11 @@
 </section>
 
 <!-- CTA Section -->
-<section style="padding: 60px 20px; background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; text-align: center;">
+<section style="padding: 60px 20px; background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; text-align: center;">
     <div class="container" style="max-width: 800px; margin: 0 auto;">
         <h2 style="font-size: 32px; font-weight: 700; margin-bottom: 20px;">Didn't Find Your Answer?</h2>
         <p style="font-size: 16px; margin-bottom: 30px; opacity: 0.9;">Contact our team for personalized guidance and expert consultation on your modular kitchen project.</p>
-        <a href="/contact" class="btn" style="background: white; color: #e74c3c; padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Get in Touch</a>
+        <a href="/contact" class="btn" style="background: #e74c3c; color: white; padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Get in Touch</a>
     </div>
 </section>
 

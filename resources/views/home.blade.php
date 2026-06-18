@@ -2,15 +2,15 @@
 
 @section('content')
 <!-- Hero Section -->
-<section class="hero-section" style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: white; padding: 100px 20px; text-align: center;">
+<section class="hero-section" style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 100px 20px; text-align: center;">
     <div class="container" style="max-width: 1000px; margin: 0 auto;">
         <h1 style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Luxury Modular Kitchens Designed for Modern Living</h1>
-        <p style="font-size: 18px; margin-bottom: 40px; color: #ecf0f1; line-height: 1.6;">
+        <p style="font-size: 18px; margin-bottom: 40px; color: #1f3a5d; line-height: 1.6;">
             Transform your everyday living with premium modular kitchen solutions crafted for elegance, smart functionality, and long-lasting performance.
         </p>
         <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px;">
             <a href="/contact" class="btn" style="background: #e74c3c; color: white; padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Get Free Design Consultation</a>
-            <a href="/products" class="btn" style="background: transparent; color: white; padding: 12px 30px; border: 2px solid white; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Explore Kitchen Packages</a>
+            <a href="/products" class="btn" style="background: transparent; color: #1f3a5d; padding: 12px 30px; border: 2px solid #1f3a5d; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Explore Kitchen Packages</a>
         </div>
         <img src="frontend/img/portfolio/1.jpg" alt="Luxury Kitchen" style="width: 100%; max-width: 1000px; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
     </div>
@@ -79,13 +79,13 @@
 </section>
 
 <!-- CTA Section -->
-<section style="padding: 60px 20px; background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; text-align: center;">
+<section style="padding: 60px 20px; background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; text-align: center;">
     <div class="container" style="max-width: 800px; margin: 0 auto;">
         <h2 style="font-size: 32px; font-weight: 700; margin-bottom: 20px;">Ready to Transform Your Kitchen?</h2>
         <p style="font-size: 16px; margin-bottom: 30px; opacity: 0.9;">Get expert guidance on modular kitchens, premium finishes, and customised solutions for your home.</p>
         <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-            <a href="/contact" class="btn" style="background: white; color: #e74c3c; padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Book Free Consultation</a>
-            <a href="/products" class="btn" style="background: transparent; color: white; padding: 12px 30px; border: 2px solid white; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Explore Packages</a>
+            <a href="/contact" class="btn" style="background: #e74c3c; color: white; padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Book Free Consultation</a>
+            <a href="/products" class="btn" style="background: transparent; color: #1f3a5d; padding: 12px 30px; border: 2px solid #1f3a5d; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Explore Packages</a>
         </div>
     </div>
 </section>

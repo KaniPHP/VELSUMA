@@ -2,10 +2,10 @@
 
 @section('content')
 <!-- Hero Section -->
-<section style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: white; padding: 80px 20px; text-align: center;">
+<section style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 80px 20px; text-align: center;">
     <div class="container" style="max-width: 1000px; margin: 0 auto;">
         <h1 style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Terms & Conditions</h1>
-        <p style="font-size: 18px; color: #ecf0f1; line-height: 1.6;">Welcome to Velsuma. These Terms & Conditions govern your access to and use of our website, products, services, and business interactions.</p>
+        <p style="font-size: 18px; color: #1f3a5d; line-height: 1.6;">Welcome to Velsuma. These Terms & Conditions govern your access to and use of our website, products, services, and business interactions.</p>
     </div>
 </section>
 

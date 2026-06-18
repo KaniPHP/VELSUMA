@@ -2,10 +2,10 @@
 
 @section('content')
 <!-- Hero Section -->
-<section style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: white; padding: 80px 20px; text-align: center;">
+<section style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 80px 20px; text-align: center;">
     <div class="container" style="max-width: 1000px; margin: 0 auto;">
         <h1 style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Get in Touch</h1>
-        <p style="font-size: 18px; color: #ecf0f1; line-height: 1.6;">Let's Design Your Dream Space Together</p>
+        <p style="font-size: 18px; color: #1f3a5d; line-height: 1.6;">Let's Design Your Dream Space Together</p>
     </div>
 </section>
 
@@ -143,13 +143,13 @@
 </section>
 
 <!-- Final CTA Section -->
-<section style="padding: 60px 20px; background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; text-align: center;">
+<section style="padding: 60px 20px; background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; text-align: center;">
     <div class="container" style="max-width: 800px; margin: 0 auto;">
         <h2 style="font-size: 32px; font-weight: 700; margin-bottom: 20px;">Let's Create Something Beautiful</h2>
         <p style="font-size: 16px; margin-bottom: 30px; opacity: 0.9;">Contact Velsuma today to start your interior transformation journey. Your dream space is just a consultation away.</p>
         <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-            <a href="#" class="btn" style="background: white; color: #e74c3c; padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Call Us Now</a>
-            <a href="#" class="btn" style="background: transparent; color: white; padding: 12px 30px; border: 2px solid white; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Email Us</a>
+            <a href="#" class="btn" style="background: #e74c3c; color: white; padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Call Us Now</a>
+            <a href="#" class="btn" style="background: transparent; color: #1f3a5d; padding: 12px 30px; border: 2px solid #1f3a5d; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Email Us</a>
         </div>
     </div>
 </section>

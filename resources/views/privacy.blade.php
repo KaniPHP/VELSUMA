@@ -2,10 +2,10 @@
 
 @section('content')
 <!-- Hero Section -->
-<section style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: white; padding: 80px 20px; text-align: center;">
+<section style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 80px 20px; text-align: center;">
     <div class="container" style="max-width: 1000px; margin: 0 auto;">
         <h1 style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Privacy Policy</h1>
-        <p style="font-size: 18px; color: #ecf0f1; line-height: 1.6;">This Privacy Policy explains how Velsuma collects, uses, protects, and handles customer information when you access our website, inquire about our products, or engage with our services.</p>
+        <p style="font-size: 18px; color: #1f3a5d; line-height: 1.6;">This Privacy Policy explains how Velsuma collects, uses, protects, and handles customer information when you access our website, inquire about our products, or engage with our services.</p>
     </div>
 </section>
 
