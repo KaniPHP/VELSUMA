@@ -67,7 +67,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="footer_copyright">
-                    <p>&copy; 2026 Velsuma. All Rights Reserved. <a href="#">Privacy Policy</a> | <a href="/terms-conditions">Terms & Conditions</a> | <a href="#">Sitemap</a></p>
+                    <p>&copy; 2026 Velsuma. All Rights Reserved. <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-conditions">Terms & Conditions</a> | <a href="#">Sitemap</a></p>
                 </div>
             </div>
         </div>

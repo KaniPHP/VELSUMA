@@ -33,3 +33,7 @@ Route::get('/contact', function () {
 Route::get('/terms-conditions', function () {
     return view('terms');
 });
+
+Route::get('/privacy-policy', function () {
+    return view('privacy');
+});
