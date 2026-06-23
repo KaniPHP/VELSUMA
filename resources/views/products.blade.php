@@ -180,6 +180,38 @@
     </div>
 </section>
 
+<!-- Bamboo Charcoal Wall Panels -->
+<section style="padding: 80px 20px; background: white;">
+    <div class="container" style="max-width: 1200px; margin: 0 auto;">
+        <h2 style="font-size: 32px; font-weight: 700; margin-bottom: 20px; color: #2c3e50; text-align: center;">Bamboo Charcoal Wall Panels</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start;">
+            <div>
+                <p style="font-size: 14px; color: #666; margin-bottom: 15px;">Transform your interiors with Bamboo Charcoal Wall Panels – the most demanding wall panel option in modern homes and offices. These premium sheets combine stunning finishes with unbeatable durability, making them the top choice for wardrobes, TV units, and every space in between.</p>
+                <table style="width:100%; border-collapse: collapse; margin-bottom:16px;">
+                  <tr><td style="padding:8px; border:1px solid #e9ecef; width:35%; font-weight:600;">Thickness</td><td style="padding:8px; border:1px solid #e9ecef;">8 mm</td></tr>
+                  <tr><td style="padding:8px; border:1px solid #e9ecef; font-weight:600;">Sizes Available</td><td style="padding:8px; border:1px solid #e9ecef;">8 × 4 ft and 10 × 4 ft</td></tr>
+                  <tr><td style="padding:8px; border:1px solid #e9ecef; font-weight:600;">Shades</td><td style="padding:8px; border:1px solid #e9ecef;">12 different finishes (wood grain, marble, glossy, matte, metallic)</td></tr>
+                  <tr><td style="padding:8px; border:1px solid #e9ecef; font-weight:600;">Waterproof</td><td style="padding:8px; border:1px solid #e9ecef;">100% waterproof – ideal for kitchens, bathrooms, and humid areas</td></tr>
+                  <tr><td style="padding:8px; border:1px solid #e9ecef; font-weight:600;">Bendability</td><td style="padding:8px; border:1px solid #e9ecef;">90-degree bendable – fits curved walls and custom designs</td></tr>
+                  <tr><td style="padding:8px; border:1px solid #e9ecef; font-weight:600;">Durability</td><td style="padding:8px; border:1px solid #e9ecef;">Termite-proof, scratch-resistant, and fade-resistant</td></tr>
+                  <tr><td style="padding:8px; border:1px solid #e9ecef; font-weight:600;">Installation</td><td style="padding:8px; border:1px solid #e9ecef;">Easy adhesive or gum application – no heavy carpentry needed</td></tr>
+                </table>
+                <h5 style="font-size:14px; font-weight:700; color:#2c3e50; margin-bottom:8px;">Key Benefits</h5>
+                <ul style="font-size:14px; color:#666; line-height:1.8; margin-bottom:12px;">
+                  <li><strong>100% Waterproof Protection</strong> – Monsoon-ready and humidity-resistant. These panels won’t swell, peel, or mold.</li>
+                  <li><strong>Flexible & Shapeable</strong> – Bend up to 90 degrees for curved walls, corners, and custom furniture interiors.</li>
+                  <li><strong>Termite & Scratch-Proof</strong> – Long-lasting finish ideal for high-traffic spaces.</li>
+                  <li><strong>Eco-Friendly & Air-Cleaning</strong> – Made from sustainable bamboo fibers; charcoal core absorbs odors and dampness.</li>
+                  <li><strong>Sound & Heat Insulation</strong> – Dampens noise and helps keep rooms cooler.</li>
+                </ul>
+            </div>
+            <div>
+                <img src="frontend/img/portfolio/6.svg" alt="Bamboo Charcoal Panels" style="width: 100%; border-radius: 8px;">
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- SPC Flooring Section -->
 <section style="padding: 80px 20px; background: #f8f9fa;">
     <div class="container" style="max-width: 1200px; margin: 0 auto;">
@@ -208,6 +240,7 @@
         </div>
     </div>
 </section>
+
 
 <!-- CTA Section -->
 <section style="padding: 60px 20px; background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; text-align: center;">
