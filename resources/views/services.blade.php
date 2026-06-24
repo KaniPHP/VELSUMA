@@ -196,46 +196,111 @@ Accurate space planning and execution support.
     </div>
 </section>
 
-<!-- Service Process -->
-<section style="padding: 80px 20px; background: white;">
-    <div class="container" style="max-width: 1200px; margin: 0 auto;">
-        <h2 style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 50px; color: #2c3e50;">How We Work</h2>
-        
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
-            <div style="text-align: center;">
-                <div style="width: 80px; height: 80px; background: #e74c3c; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 40px; margin: 0 auto 20px; font-weight: 700;">1</div>
-                <h3 style="font-size: 18px; font-weight: 700; color: #2c3e50; margin-bottom: 10px;">Consultation</h3>
-                <p style="font-size: 13px; color: #666;">Understanding your requirements, space, and design preferences in detail.</p>
-            </div>
-            <div style="text-align: center;">
-                <div style="width: 80px; height: 80px; background: #3498db; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 40px; margin: 0 auto 20px; font-weight: 700;">2</div>
-                <h3 style="font-size: 18px; font-weight: 700; color: #2c3e50; margin-bottom: 10px;">Design Planning</h3>
-                <p style="font-size: 13px; color: #666;">Creating customised layouts and modern design concepts tailored for you.</p>
-            </div>
-            <div style="text-align: center;">
-                <div style="width: 80px; height: 80px; background: #27ae60; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 40px; margin: 0 auto 20px; font-weight: 700;">3</div>
-                <h3 style="font-size: 18px; font-weight: 700; color: #2c3e50; margin-bottom: 10px;">Material Selection</h3>
-                <p style="font-size: 13px; color: #666;">Selecting premium finishes, textures, and accessories that match your vision.</p>
-            </div>
-            <div style="text-align: center;">
-                <div style="width: 80px; height: 80px; background: #f39c12; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 40px; margin: 0 auto 20px; font-weight: 700;">4</div>
-                <h3 style="font-size: 18px; font-weight: 700; color: #2c3e50; margin-bottom: 10px;">Production</h3>
-                <p style="font-size: 13px; color: #666;">Precision manufacturing using quality materials and modern systems.</p>
-            </div>
-            <div style="text-align: center;">
-                <div style="width: 80px; height: 80px; background: #9b59b6; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 40px; margin: 0 auto 20px; font-weight: 700;">5</div>
-                <h3 style="font-size: 18px; font-weight: 700; color: #2c3e50; margin-bottom: 10px;">Installation</h3>
-                <p style="font-size: 13px; color: #666;">Professional installation with attention to detail and finishing quality.</p>
-            </div>
-            <div style="text-align: center;">
-                <div style="width: 80px; height: 80px; background: #e74c3c; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 40px; margin: 0 auto 20px; font-weight: 700;">6</div>
-                <h3 style="font-size: 18px; font-weight: 700; color: #2c3e50; margin-bottom: 10px;">Handover</h3>
-                <p style="font-size: 13px; color: #666;">Complete project delivery with quality assurance and your satisfaction.</p>
-            </div>
-        </div>
-    </div>
-</section>
 
+<!-- Service Process -->
+<section style="padding:80px 20px;background:white;">
+
+<div class="container" style="max-width:1200px;margin:0 auto;">
+
+<h2 style="
+font-size:36px;
+font-weight:700;
+text-align:center;
+margin-bottom:60px;
+color:#2c3e50;">
+
+How We Work
+
+</h2>
+
+<div style="
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:40px;">
+
+<!-- 1 -->
+<div style="text-align:center;">
+<div style="width:80px;height:80px;background:#e74c3c;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:40px;margin:0 auto 20px;font-weight:700;">1</div>
+
+<h3 style="font-size:22px;color:#2c3e50;margin-bottom:15px;">
+Consultation
+</h3>
+
+<p style="font-size:15px;color:#666;line-height:1.8;">
+Understanding your requirements, space, and design preferences in detail.
+</p>
+</div>
+
+<!-- 2 -->
+<div style="text-align:center;">
+<div style="width:80px;height:80px;background:#3498db;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:40px;margin:0 auto 20px;font-weight:700;">2</div>
+
+<h3 style="font-size:22px;color:#2c3e50;margin-bottom:15px;">
+Design Planning
+</h3>
+
+<p style="font-size:15px;color:#666;line-height:1.8;">
+Creating customised layouts and modern design concepts tailored for you.
+</p>
+</div>
+
+<!-- 3 -->
+<div style="text-align:center;">
+<div style="width:80px;height:80px;background:#27ae60;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:40px;margin:0 auto 20px;font-weight:700;">3</div>
+
+<h3 style="font-size:22px;color:#2c3e50;margin-bottom:15px;">
+Material Selection
+</h3>
+
+<p style="font-size:15px;color:#666;line-height:1.8;">
+Selecting premium finishes, textures, and accessories.
+</p>
+</div>
+
+<!-- 4 -->
+<div style="text-align:center;">
+<div style="width:80px;height:80px;background:#f39c12;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:40px;margin:0 auto 20px;font-weight:700;">4</div>
+
+<h3 style="font-size:22px;color:#2c3e50;margin-bottom:15px;">
+Production
+</h3>
+
+<p style="font-size:15px;color:#666;line-height:1.8;">
+Precision manufacturing using quality materials.
+</p>
+</div>
+
+<!-- 5 -->
+<div style="text-align:center;">
+<div style="width:80px;height:80px;background:#9b59b6;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:40px;margin:0 auto 20px;font-weight:700;">5</div>
+
+<h3 style="font-size:22px;color:#2c3e50;margin-bottom:15px;">
+Installation
+</h3>
+
+<p style="font-size:15px;color:#666;line-height:1.8;">
+Professional installation with premium finishing.
+</p>
+</div>
+
+<!-- 6 -->
+<div style="text-align:center;">
+<div style="width:80px;height:80px;background:#e74c3c;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:40px;margin:0 auto 20px;font-weight:700;">6</div>
+
+<h3 style="font-size:22px;color:#2c3e50;margin-bottom:15px;">
+Handover
+</h3>
+
+<p style="font-size:15px;color:#666;line-height:1.8;">
+Complete project delivery with quality assurance.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
 <!-- CTA Section -->
 <section style="padding: 60px 20px; background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; text-align: center;">
     <div class="container" style="max-width: 800px; margin: 0 auto;">
