@@ -10,61 +10,151 @@
 </section>
 
 <!-- Services Section -->
-<section style="padding: 80px 20px; background: white;">
-    <div class="container" style="max-width: 1200px; margin: 0 auto;">
-        <p style="text-align: center; font-size: 16px; color: #666; margin-bottom: 50px; max-width: 700px; margin-left: auto; margin-right: auto;">
-            At Velsuma, we provide complete project support from design consultation to final installation with professional execution standards.
-        </p>
-        
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px;">
-            <!-- Service 1 -->
-            <div style="padding: 40px; background: #f8f9fa; border-radius: 8px; border-top: 4px solid #e74c3c; text-align: center;">
-                <img src="frontend/img/icon/design.png" alt="Kitchen Design" style="width: 60px; height: 60px; margin-bottom: 20px;">
-                <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 15px; color: #2c3e50;">Modular Kitchen Design & Installation</h3>
-                <p style="font-size: 14px; color: #666; line-height: 1.8;">
-                    Customized kitchen planning with intelligent layouts, premium materials, and seamless installation support. We handle everything from initial consultation to final execution.
-                </p>
-            </div>
 
-            <!-- Service 2 -->
-            <div style="padding: 40px; background: #f8f9fa; border-radius: 8px; border-top: 4px solid #3498db; text-align: center;">
-                <img src="frontend/img/icon/photo.png" alt="Consultation" style="width: 60px; height: 60px; margin-bottom: 20px;">
-                <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 15px; color: #2c3e50;">Interior Consultation</h3>
-                <p style="font-size: 14px; color: #666; line-height: 1.8;">
-                    Expert guidance for selecting materials, finishes, colors, and modern interior concepts that align with your vision and lifestyle.
-                </p>
-            </div>
+<section style="padding:80px 20px;background:white;">
 
-            <!-- Service 3 -->
-            <div style="padding: 40px; background: #f8f9fa; border-radius: 8px; border-top: 4px solid #27ae60; text-align: center;">
-                <img src="frontend/img/icon/strategy.png" alt="Soffit" style="width: 60px; height: 60px; margin-bottom: 20px;">
-                <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 15px; color: #2c3e50;">Soffit Panel Installation</h3>
-                <p style="font-size: 14px; color: #666; line-height: 1.8;">
-                    Professional installation support for interior soffit ceilings, exterior soffit systems, and wall-cladding applications with precision finishing.
-                </p>
-            </div>
+<div class="container" style="max-width:1200px;margin:0 auto;">
 
-            <!-- Service 4 -->
-            <div style="padding: 40px; background: #f8f9fa; border-radius: 8px; border-top: 4px solid #f39c12; text-align: center;">
-                <img src="frontend/img/icon/research.png" alt="Flooring" style="width: 60px; height: 60px; margin-bottom: 20px;">
-                <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 15px; color: #2c3e50;">SPC Flooring Installation</h3>
-                <p style="font-size: 14px; color: #666; line-height: 1.8;">
-                    Precision flooring installation with clean finishing and long-lasting performance. Our team ensures perfect alignment and durability.
-                </p>
-            </div>
+<p style="
+text-align:center;
+font-size:16px;
+color:#666;
+margin-bottom:50px;
+max-width:700px;
+margin-left:auto;
+margin-right:auto;">
 
-            <!-- Service 5 -->
-            <div style="padding: 40px; background: #f8f9fa; border-radius: 8px; border-top: 4px solid #9b59b6; text-align: center;">
-                <img src="frontend/img/icon/cart.png" alt="Measurement" style="width: 60px; height: 60px; margin-bottom: 20px;">
-                <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 15px; color: #2c3e50;">Site Measurement & Planning</h3>
-                <p style="font-size: 14px; color: #666; line-height: 1.8;">
-                    Accurate space planning and execution support to ensure perfect project delivery. We take detailed measurements and create custom layouts.
-                </p>
-            </div>
-        </div>
-    </div>
+At Velsuma, we provide complete project support from design consultation to final installation with professional execution standards.
+
+</p>
+
+<div style="
+display:flex;
+gap:30px;
+overflow-x:auto;
+scroll-behavior:smooth;
+padding-bottom:20px;">
+
+<!-- Card -->
+<div style="
+flex:0 0 calc((100% - 60px)/3);
+min-width:calc((100% - 60px)/3);
+padding:40px;
+background:#f8f9fa;
+border-radius:16px;
+border-top:5px solid #e74c3c;
+text-align:center;">
+
+<img src="frontend/img/icon/design.png"
+style="width:60px;height:60px;margin-bottom:20px;">
+
+<h3 style="font-size:22px;color:#2c3e50;">
+Modular Kitchen Design & Installation
+</h3>
+
+<p style="color:#666;line-height:1.8;">
+Customized kitchen planning with intelligent layouts, premium materials, and seamless installation support.
+</p>
+
+</div>
+
+<!-- Service 2 -->
+<div style="
+flex:0 0 calc((100% - 60px)/3);
+min-width:calc((100% - 60px)/3);
+padding:40px;
+background:#f8f9fa;
+border-radius:16px;
+border-top:5px solid #3498db;
+text-align:center;">
+
+<img src="frontend/img/icon/photo.png"
+style="width:60px;height:60px;margin-bottom:20px;">
+
+<h3 style="font-size:22px;color:#2c3e50;">
+Interior Consultation
+</h3>
+
+<p style="color:#666;line-height:1.8;">
+Expert guidance for selecting materials, finishes, colors, and modern concepts.
+</p>
+
+</div>
+
+<!-- Service 3 -->
+<div style="
+flex:0 0 calc((100% - 60px)/3);
+min-width:calc((100% - 60px)/3);
+padding:40px;
+background:#f8f9fa;
+border-radius:16px;
+border-top:5px solid #27ae60;
+text-align:center;">
+
+<img src="frontend/img/icon/strategy.png"
+style="width:60px;height:60px;margin-bottom:20px;">
+
+<h3 style="font-size:22px;color:#2c3e50;">
+Soffit Panel Installation
+</h3>
+
+<p style="color:#666;line-height:1.8;">
+Professional installation support for soffit ceilings and wall-cladding.
+</p>
+
+</div>
+
+<!-- Service 4 -->
+<div style="
+flex:0 0 calc((100% - 60px)/3);
+min-width:calc((100% - 60px)/3);
+padding:40px;
+background:#f8f9fa;
+border-radius:16px;
+border-top:5px solid #f39c12;
+text-align:center;">
+
+<img src="frontend/img/icon/research.png"
+style="width:60px;height:60px;margin-bottom:20px;">
+
+<h3 style="font-size:22px;color:#2c3e50;">
+SPC Flooring Installation
+</h3>
+
+<p style="color:#666;line-height:1.8;">
+Precision flooring installation with clean finishing.
+</p>
+
+</div>
+
+<!-- Service 5 -->
+<div style="
+flex:0 0 calc((100% - 60px)/3);
+min-width:calc((100% - 60px)/3);
+padding:40px;
+background:#f8f9fa;
+border-radius:16px;
+border-top:5px solid #9b59b6;
+text-align:center;">
+
+<img src="frontend/img/icon/cart.png"
+style="width:60px;height:60px;margin-bottom:20px;">
+
+<h3 style="font-size:22px;color:#2c3e50;">
+Site Measurement & Planning
+</h3>
+
+<p style="color:#666;line-height:1.8;">
+Accurate space planning and execution support.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
-
 <!-- Why Choose Our Services -->
 <section style="padding: 80px 20px; background: #f8f9fa;">
     <div class="container" style="max-width: 1200px; margin: 0 auto;">

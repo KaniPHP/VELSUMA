@@ -29,7 +29,6 @@
             <li><a class="nav-link" href="/products">Products</a></li>
             <li><a class="nav-link" href="/services">Services</a></li>
             <li><a class="nav-link" href="/process">Our Process</a></li>
-            <li><a class="nav-link" href="/faq">FAQ</a></li>
             <li><a class="nav-link" href="/contact">Contact</a></li>
           </ul>
         </nav>
