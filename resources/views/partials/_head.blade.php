@@ -7,7 +7,7 @@
     <meta name="description" content="Monoline - Design Agency HTML Template">
     <meta name="keywords" content="agency, business, corporate, creative, html5, modern, multipurpose, One Page, parallax, startup ">
     <!-- SITE TITLE -->
-    <title>@yield('title', 'Monoline - Design Agency HTML Template')</title>
+    <title>@yield('title', 'Velusma')</title>
     <!-- Latest Bootstrap min CSS -->
     <link rel="stylesheet" href="frontend/bootstrap/css/bootstrap.min.css">
     <!-- Google Font -->

@@ -16,42 +16,7 @@
             <!-- Contact Form -->
             <div>
                 <h2 style="font-size: 32px; font-weight: 700; margin-bottom: 30px; color: #2c3e50;">Book Your Free Consultation</h2>
-                <form>
-                    <div style="margin-bottom: 20px;">
-                        <label style="display: block; font-size: 14px; font-weight: 600; color: #2c3e50; margin-bottom: 8px;">Full Name *</label>
-                        <input type="text" placeholder="Your name" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; box-sizing: border-box;">
-                    </div>
-                    
-                    <div style="margin-bottom: 20px;">
-                        <label style="display: block; font-size: 14px; font-weight: 600; color: #2c3e50; margin-bottom: 8px;">Email Address *</label>
-                        <input type="email" placeholder="your.email@example.com" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; box-sizing: border-box;">
-                    </div>
-                    
-                    <div style="margin-bottom: 20px;">
-                        <label style="display: block; font-size: 14px; font-weight: 600; color: #2c3e50; margin-bottom: 8px;">Phone Number *</label>
-                        <input type="tel" placeholder="+91 98765 43210" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; box-sizing: border-box;">
-                    </div>
-                    
-                    <div style="margin-bottom: 20px;">
-                        <label style="display: block; font-size: 14px; font-weight: 600; color: #2c3e50; margin-bottom: 8px;">Project Type *</label>
-                        <select required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; box-sizing: border-box;">
-                            <option value="">Select a project type</option>
-                            <option value="modular-kitchen">Modular Kitchen</option>
-                            <option value="soffit-panels">Soffit Panels</option>
-                            <option value="spc-flooring">SPC Flooring</option>
-                            <option value="complete-interiors">Complete Interiors</option>
-                        </select>
-                    </div>
-                    
-                    <div style="margin-bottom: 20px;">
-                        <label style="display: block; font-size: 14px; font-weight: 600; color: #2c3e50; margin-bottom: 8px;">Message *</label>
-                        <textarea placeholder="Tell us about your project requirements..." required rows="5" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; box-sizing: border-box; font-family: inherit;"></textarea>
-                    </div>
-                    
-                    <button type="submit" style="width: 100%; padding: 14px; background: #e74c3c; color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.3s;">
-                        Send Message
-                    </button>
-                </form>
+                <iframe src="https://docs.google.com/forms/d/1N0T8o1QxS0mgMzrxcRRR2u6Eai1GDB2fhCyxRbiKhIw/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" style="border-radius: 8px;">Loading…</iframe>
             </div>
 
             <!-- Contact Information -->
