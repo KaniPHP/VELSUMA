@@ -2,22 +2,22 @@
 
 @section('content')
 <!-- Hero Section -->
-<section style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 80px 20px; text-align: center;">
+<section class="products-hero-section" style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 80px 20px; text-align: center;">
     <div class="container" style="max-width: 1000px; margin: 0 auto;">
-        <h1 style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Our Products</h1>
+        <h1 class="products-hero-title" style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Our Products</h1>
         <p style="font-size: 18px; color: #1f3a5d; line-height: 1.6;">Premium modular kitchens, soffit systems, and SPC flooring solutions</p>
     </div>
 </section>
 
 <!-- Modular Kitchens Section -->
-<section style="padding: 80px 20px; background: white;">
+<section class="products-kitchen-section" style="padding: 80px 20px; background: white;">
     <div class="container" style="max-width: 1200px; margin: 0 auto;">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; margin-bottom: 60px;">
+        <div class="products-kitchen-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; margin-bottom: 60px;">
             <div>
                 <img src="frontend/img/portfolio/4.jpg" alt="Modular Kitchens" style="width: 100%; border-radius: 8px;">
             </div>
             <div>
-                <h2 style="font-size: 36px; font-weight: 700; margin-bottom: 20px; color: #2c3e50;">Premium Modular Kitchens</h2>
+                <h2 class="products-kitchen-title" style="font-size: 36px; font-weight: 700; margin-bottom: 20px; color: #2c3e50;">Premium Modular Kitchens</h2>
                 <p style="font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 20px;">
                     Modern kitchens should be beautiful, organized, and effortless to use. Velsuma modular kitchens are designed to maximize functionality while creating a clean and luxurious visual experience.
                 </p>
@@ -40,11 +40,11 @@
 </section>
 
 <!-- Kitchen Packages Section -->
-<section style="padding:80px 20px;background:#f8f9fa;">
+<section class="products-packages-section" style="padding:80px 20px;background:#f8f9fa;">
 
 <div class="container" style="max-width:1200px;margin:0 auto;">
 
-<h2 style="
+<h2 class="products-packages-title" style="
 font-size:36px;
 font-weight:700;
 text-align:center;
@@ -61,7 +61,7 @@ margin-bottom:50px;">
 Choose the Perfect Kitchen Package for Your Lifestyle
 </p>
 
-<div style="
+<div class="products-packages-grid" style="
 display:flex;
 gap:30px;
 overflow-x:auto;
@@ -235,11 +235,11 @@ Best For: Budget-friendly modern kitchen spaces
 </section>
 
 <!-- Soffit Panels Section -->
-<section style="padding: 80px 20px; background: white;">
+<section class="products-soffit-section" style="padding: 80px 20px; background: white;">
     <div class="container" style="max-width: 1200px; margin: 0 auto;">
-        <h2 style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 50px; color: #2c3e50;">Soffit Panels</h2>
-        
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 60px;">
+        <h2 class="products-soffit-heading" style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 50px; color: #2c3e50;">Soffit Panels</h2>
+
+        <div class="products-soffit-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 60px;">
             <!-- Soffit Interior -->
             <div style="padding: 40px; background: #f8f9fa; border-radius: 8px; text-align: center;">
                 <img src="frontend/img/blog/1.jpg" alt="Interior Soffit" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
@@ -286,13 +286,13 @@ Best For: Budget-friendly modern kitchen spaces
 </section>
 
 <!-- Bamboo Charcoal Wall Panels -->
-<section style="padding: 80px 20px; background: white;">
+<section class="products-bamboo-section" style="padding: 80px 20px; background: white;">
     <div class="container" style="max-width: 1200px; margin: 0 auto;">
-        <h2 style="font-size: 32px; font-weight: 700; margin-bottom: 20px; color: #2c3e50; text-align: center;">Bamboo Charcoal Wall Panels</h2>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start;">
+        <h2 class="products-bamboo-heading" style="font-size: 32px; font-weight: 700; margin-bottom: 20px; color: #2c3e50; text-align: center;">Bamboo Charcoal Wall Panels</h2>
+        <div class="products-bamboo-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start;">
             <div style="padding: 30px; background: #f5f9ff; border-radius: 16px; border: 1px solid rgba(46, 125, 228, 0.12); box-shadow: 0 18px 50px rgba(46, 125, 228, 0.05);">
                 <p style="font-size: 15px; color: #3a4660; margin-bottom: 24px; line-height: 1.8;">Transform your interiors with Bamboo Charcoal Wall Panels – the most demanding wall panel option in modern homes and offices. These premium sheets combine stunning finishes with unbeatable durability, making them the top choice for wardrobes, TV units, and every space in between.</p>
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 24px;">
+                <div class="products-bamboo-specs" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 24px;">
                   <div style="padding: 18px; background: white; border-radius: 12px; border: 1px solid #e9eef7;">
                     <div style="font-size: 13px; font-weight: 700; color: #1f3a5d; margin-bottom: 6px;">Thickness</div>
                     <div style="font-size: 14px; color: #4f5b72;">8 mm</div>
@@ -317,7 +317,7 @@ Best For: Budget-friendly modern kitchen spaces
                     <div style="font-size: 13px; font-weight: 700; color: #1f3a5d; margin-bottom: 6px;">Durability</div>
                     <div style="font-size: 14px; color: #4f5b72;">Termite-proof, scratch-resistant, and fade-resistant</div>
                   </div>
-                  <div style="padding: 18px; background: white; border-radius: 12px; border: 1px solid #e9eef7; grid-column: span 2;">
+                  <div class="products-bamboo-specs-item span-2" style="padding: 18px; background: white; border-radius: 12px; border: 1px solid #e9eef7; grid-column: span 2;">
                     <div style="font-size: 13px; font-weight: 700; color: #1f3a5d; margin-bottom: 6px;">Installation</div>
                     <div style="font-size: 14px; color: #4f5b72;">Easy adhesive or gum application—no heavy carpentry needed</div>
                   </div>
@@ -462,11 +462,11 @@ Best For: Budget-friendly modern kitchen spaces
 
 <!-- SPC Flooring Section -->
 
-<section style="padding:100px 20px;background:#f8f9fa;">
+<section class="products-spc-section" style="padding:100px 20px;background:#f8f9fa;">
 
 <div class="container" style="max-width:1200px;margin:0 auto;">
 
-<div style="
+<div class="products-spc-grid" style="
 display:grid;
 grid-template-columns:1fr 1fr;
 gap:60px;
@@ -477,7 +477,7 @@ align-items:center;">
 <div>
 
 
-<h2 style="
+<h2 class="products-spc-title" style="
 font-size:42px;
 font-weight:700;
 color:#2c3e50;
@@ -508,7 +508,7 @@ Velsuma SPC flooring combines waterproof performance, scratch resistance, and el
 </p>
 
 
-<div style="
+<div class="products-spc-features" style="
 display:grid;
 grid-template-columns:repeat(2,1fr);
 gap:16px;">
@@ -608,9 +608,9 @@ box-shadow:0 20px 45px rgba(0,0,0,.12);">
 </section>
 
 <!-- CTA Section -->
-<section style="padding: 60px 20px; background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; text-align: center;">
+<section class="products-cta-section" style="padding: 60px 20px; background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; text-align: center;">
     <div class="container" style="max-width: 800px; margin: 0 auto;">
-        <h2 style="font-size: 32px; font-weight: 700; margin-bottom: 20px;">Ready to Explore Our Products?</h2>
+        <h2 class="products-cta-title" style="font-size: 32px; font-weight: 700; margin-bottom: 20px;">Ready to Explore Our Products?</h2>
         <p style="font-size: 16px; margin-bottom: 30px; opacity: 0.9;">Get personalized recommendations and expert consultation for your space.</p>
         <a href="/contact" class="btn" style="background: #e74c3c; color: white; padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Book Consultation</a>
     </div>

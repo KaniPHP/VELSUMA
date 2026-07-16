@@ -1,0 +1,38 @@
+/* ========================================
+   RESPONSIVE - HOME PAGE
+   ======================================== */
+
+@media only screen and (max-width: 991px) {
+  .home-hero-title { font-size: 36px !important; }
+  .home-hero-desc { font-size: 16px !important; }
+  .home-features-grid { grid-template-columns: repeat(2, 1fr) !important; }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-hero-title { font-size: 32px !important; }
+  .home-about-grid { grid-template-columns: 1fr !important; }
+  .home-about-heading { font-size: 30px !important; }
+}
+
+@media only screen and (max-width: 576px) {
+  .home-hero-section { padding: 60px 16px !important; }
+  .home-hero-title { font-size: 26px !important; }
+  .home-hero-desc { font-size: 15px !important; }
+  .home-hero-buttons { flex-direction: column !important; align-items: center !important; }
+  .home-hero-buttons .btn { width: 100%; max-width: 300px; }
+  .home-about-section { padding: 50px 16px !important; }
+  .home-about-heading { font-size: 24px !important; margin-bottom: 30px !important; }
+  .home-features-section { padding: 50px 16px !important; }
+  .home-features-grid { grid-template-columns: 1fr !important; }
+  .home-features-heading { font-size: 24px !important; margin-bottom: 30px !important; }
+  .home-cta-section { padding: 40px 16px !important; }
+  .home-cta-title { font-size: 24px !important; }
+  .home-cta-buttons { flex-direction: column !important; align-items: center !important; }
+  .home-cta-buttons .btn { width: 100%; max-width: 280px; }
+}
+
+@media only screen and (max-width: 375px) {
+  .home-hero-title { font-size: 22px !important; }
+  .home-about-heading { font-size: 20px !important; }
+  .home-features-heading { font-size: 20px !important; }
+}

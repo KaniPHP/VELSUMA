@@ -1,0 +1,36 @@
+/* ========================================
+   RESPONSIVE - PROCESS PAGE
+   ======================================== */
+
+@media only screen and (max-width: 991px) {
+  .process-hero-title { font-size: 36px !important; }
+}
+
+@media only screen and (max-width: 768px) {
+  .process-hero-title { font-size: 32px !important; }
+  .process-step-grid { grid-template-columns: 1fr !important; gap: 30px !important; }
+  .process-step-even .process-step-image { order: 2 !important; }
+  .process-step-number { width: 60px !important; height: 60px !important; font-size: 30px !important; }
+  .process-step-title { font-size: 26px !important; }
+}
+
+@media only screen and (max-width: 576px) {
+  .process-hero-section { padding: 60px 16px !important; }
+  .process-hero-title { font-size: 26px !important; }
+  .process-hero-desc { font-size: 15px !important; }
+  .process-timeline-section { padding: 50px 16px !important; }
+  .process-step-title { font-size: 22px !important; }
+  .process-step-desc { font-size: 14px !important; }
+  .process-step-grid { margin-bottom: 50px !important; }
+  .process-highlights-section { padding: 50px 16px !important; }
+  .process-highlights-heading { font-size: 24px !important; margin-bottom: 30px !important; }
+  .process-cta-section { padding: 40px 16px !important; }
+  .process-cta-title { font-size: 24px !important; }
+  .process-cta-desc { font-size: 15px !important; }
+}
+
+@media only screen and (max-width: 375px) {
+  .process-hero-title { font-size: 22px !important; }
+  .process-step-title { font-size: 20px !important; }
+  .process-highlights-heading { font-size: 20px !important; }
+}

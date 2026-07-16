@@ -2,20 +2,20 @@
 
 @section('content')
 <!-- Hero Section -->
-<section style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 80px 20px; text-align: center;">
+<section class="faq-hero-section" style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 80px 20px; text-align: center;">
     <div class="container" style="max-width: 1000px; margin: 0 auto;">
-        <h1 style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Frequently Asked Questions</h1>
+        <h1 class="faq-hero-title" style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Frequently Asked Questions</h1>
         <p style="font-size: 18px; color: #1f3a5d; line-height: 1.6;">Answers to common questions about Velsuma products and services</p>
     </div>
 </section>
 
 <!-- FAQ Content -->
-<section style="padding: 80px 20px; background: white;">
+<section class="faq-section" style="padding: 80px 20px; background: white;">
     <div class="container" style="max-width: 900px; margin: 0 auto;">
         <!-- FAQ Item 1 -->
         <div style="margin-bottom: 20px; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden;">
             <div style="padding: 20px; background: #f8f9fa; cursor: pointer;" onclick="toggleFaq(this)">
-                <h3 style="font-size: 16px; font-weight: 700; color: #2c3e50; margin: 0; display: flex; justify-content: space-between; align-items: center;">
+                <h3 class="faq-question-title" style="font-size: 16px; font-weight: 700; color: #2c3e50; margin: 0; display: flex; justify-content: space-between; align-items: center;">
                     Which modular kitchen package is best for my home?
                     <span style="font-size: 20px;">+</span>
                 </h3>
@@ -218,9 +218,9 @@
 </section>
 
 <!-- CTA Section -->
-<section style="padding: 60px 20px; background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; text-align: center;">
+<section class="faq-cta-section" style="padding: 60px 20px; background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; text-align: center;">
     <div class="container" style="max-width: 800px; margin: 0 auto;">
-        <h2 style="font-size: 32px; font-weight: 700; margin-bottom: 20px;">Didn't Find Your Answer?</h2>
+        <h2 class="faq-cta-title" style="font-size: 32px; font-weight: 700; margin-bottom: 20px;">Didn't Find Your Answer?</h2>
         <p style="font-size: 16px; margin-bottom: 30px; opacity: 0.9;">Contact our team for personalized guidance and expert consultation on your modular kitchen project.</p>
         <a href="/contact" class="btn" style="background: #e74c3c; color: white; padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Get in Touch</a>
     </div>

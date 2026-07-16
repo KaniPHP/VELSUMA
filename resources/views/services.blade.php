@@ -2,20 +2,20 @@
 
 @section('content')
 <!-- Hero Section -->
-<section style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 80px 20px; text-align: center;">
+<section class="services-hero-section" style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 80px 20px; text-align: center;">
     <div class="container" style="max-width: 1000px; margin: 0 auto;">
-        <h1 style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Our Services</h1>
+        <h1 class="services-hero-title" style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Our Services</h1>
         <p style="font-size: 18px; color: #1f3a5d; line-height: 1.6;">End-to-End Interior Solutions from Concept to Completion</p>
     </div>
 </section>
 
 <!-- Services Section -->
 
-<section style="padding:80px 20px;background:white;">
+<section class="services-section" style="padding:80px 20px;background:white;">
 
 <div class="container" style="max-width:1200px;margin:0 auto;">
 
-<p style="
+<p class="services-desc" style="
 text-align:center;
 font-size:16px;
 color:#666;
@@ -28,7 +28,7 @@ At Velsuma, we provide complete project support from design consultation to fina
 
 </p>
 
-<div style="
+<div class="services-cards" style="
 display:flex;
 gap:30px;
 overflow-x:auto;
@@ -156,11 +156,11 @@ Accurate space planning and execution support.
 
 </section>
 <!-- Why Choose Our Services -->
-<section style="padding: 80px 20px; background: #f8f9fa;">
+<section class="services-why-section" style="padding: 80px 20px; background: #f8f9fa;">
     <div class="container" style="max-width: 1200px; margin: 0 auto;">
-        <h2 style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 50px; color: #2c3e50;">Why Choose Our Services?</h2>
-        
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px;">
+        <h2 class="services-why-heading" style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 50px; color: #2c3e50;">Why Choose Our Services?</h2>
+
+        <div class="services-why-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px;">
             <!-- Left Column -->
             <div>
                 <div style="margin-bottom: 35px;">
@@ -198,11 +198,11 @@ Accurate space planning and execution support.
 
 
 <!-- Service Process -->
-<section style="padding:80px 20px;background:white;">
+<section class="services-process-section" style="padding:80px 20px;background:white;">
 
 <div class="container" style="max-width:1200px;margin:0 auto;">
 
-<h2 style="
+<h2 class="services-process-heading" style="
 font-size:36px;
 font-weight:700;
 text-align:center;
@@ -213,7 +213,7 @@ How We Work
 
 </h2>
 
-<div style="
+<div class="services-process-grid" style="
 display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:40px;">
@@ -302,10 +302,10 @@ Complete project delivery with quality assurance.
 
 </section>
 <!-- CTA Section -->
-<section style="padding: 60px 20px; background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; text-align: center;">
+<section class="services-cta-section" style="padding: 60px 20px; background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; text-align: center;">
     <div class="container" style="max-width: 800px; margin: 0 auto;">
-        <h2 style="font-size: 32px; font-weight: 700; margin-bottom: 20px;">Ready to Start Your Project?</h2>
-        <p style="font-size: 16px; margin-bottom: 30px; opacity: 0.9;">Let our expert team help you create the perfect space for your home or business.</p>
+        <h2 class="services-cta-title" style="font-size: 32px; font-weight: 700; margin-bottom: 20px;">Ready to Start Your Project?</h2>
+        <p class="services-cta-desc" style="font-size: 16px; margin-bottom: 30px; opacity: 0.9;">Let our expert team help you create the perfect space for your home or business.</p>
         <a href="/contact" class="btn" style="background: #e74c3c; color: white; padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Schedule Consultation</a>
     </div>
 </section>

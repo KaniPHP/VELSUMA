@@ -1,0 +1,37 @@
+/* ========================================
+   RESPONSIVE - ABOUT PAGE
+   ======================================== */
+
+@media only screen and (max-width: 991px) {
+  .about-hero-title { font-size: 36px !important; }
+  .about-philosophy-grid { grid-template-columns: repeat(2, 1fr) !important; }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-hero-title { font-size: 32px !important; }
+  .about-story-grid { grid-template-columns: 1fr !important; }
+  .about-story-title { font-size: 28px !important; }
+  .about-difference-grid { grid-template-columns: 1fr !important; }
+}
+
+@media only screen and (max-width: 576px) {
+  .about-hero-section { padding: 60px 16px !important; }
+  .about-hero-title { font-size: 26px !important; }
+  .about-story-section { padding: 50px 16px !important; }
+  .about-story-title { font-size: 24px !important; }
+  .about-philosophy-section { padding: 50px 16px !important; }
+  .about-philosophy-heading { font-size: 24px !important; }
+  .about-philosophy-grid { grid-template-columns: 1fr !important; gap: 20px !important; }
+  .about-difference-section { padding: 50px 16px !important; }
+  .about-difference-heading { font-size: 24px !important; }
+  .about-cta-section { padding: 40px 16px !important; }
+  .about-cta-title { font-size: 24px !important; }
+  .about-cta-desc { font-size: 15px !important; }
+}
+
+@media only screen and (max-width: 375px) {
+  .about-hero-title { font-size: 22px !important; }
+  .about-story-title { font-size: 20px !important; }
+  .about-philosophy-heading { font-size: 20px !important; }
+  .about-difference-heading { font-size: 20px !important; }
+}

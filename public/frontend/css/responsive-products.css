@@ -1,0 +1,36 @@
+/* ========================================
+   RESPONSIVE - PRODUCTS PAGE
+   ======================================== */
+
+@media only screen and (max-width: 991px) {
+  .products-hero-title { font-size: 36px !important; }
+  .products-kitchen-grid { grid-template-columns: 1fr !important; }
+  .products-soffit-grid { grid-template-columns: repeat(2, 1fr) !important; }
+}
+
+@media only screen and (max-width: 768px) {
+  .products-hero-title { font-size: 32px !important; }
+  .products-kitchen-title { font-size: 28px !important; }
+  .products-soffit-grid { grid-template-columns: 1fr !important; }
+  .products-spc-grid { grid-template-columns: 1fr !important; gap: 30px !important; }
+  .products-bamboo-grid { grid-template-columns: 1fr !important; }
+  .products-bamboo-specs { grid-template-columns: 1fr !important; }
+  .products-bamboo-specs-item.span-2 { grid-column: span 1 !important; }
+}
+
+@media only screen and (max-width: 576px) {
+  .products-hero-section { padding: 60px 16px !important; }
+  .products-hero-title { font-size: 26px !important; }
+  .products-kitchen-section { padding: 50px 16px !important; }
+  .products-kitchen-title { font-size: 24px !important; }
+  .products-packages-section { padding: 50px 16px !important; }
+  .products-packages-title { font-size: 24px !important; }
+  .products-packages-grid { overflow-x: auto !important; }
+  .products-bamboo-section { padding: 50px 16px !important; }
+  .products-bamboo-heading { font-size: 24px !important; }
+  .products-spc-section { padding: 60px 16px !important; }
+  .products-spc-title { font-size: 28px !important; }
+  .products-spc-features { grid-template-columns: 1fr !important; }
+  .products-cta-section { padding: 40px 16px !important; }
+  .products-cta-title { font-size: 24px !important; }
+}

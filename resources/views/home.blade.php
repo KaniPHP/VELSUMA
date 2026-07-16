@@ -2,13 +2,13 @@
 
 @section('content')
 <!-- Hero Section -->
-<section class="hero-section" style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 100px 20px; text-align: center;">
+<section class="home-hero-section" style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 100px 20px; text-align: center;">
     <div class="container" style="max-width: 1000px; margin: 0 auto;">
-        <h1 style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Luxury Modular Kitchens Designed for Modern Living</h1>
-        <p style="font-size: 18px; margin-bottom: 40px; color: #1f3a5d; line-height: 1.6;">
+        <h1 class="home-hero-title" style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Luxury Modular Kitchens Designed for Modern Living</h1>
+        <p class="home-hero-desc" style="font-size: 18px; margin-bottom: 40px; color: #1f3a5d; line-height: 1.6;">
             Transform your everyday living with premium modular kitchen solutions crafted for elegance, smart functionality, and long-lasting performance.
         </p>
-        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px;">
+        <div class="home-hero-buttons" style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px;">
             <a href="/contact" class="btn" style="background: #e74c3c; color: white; padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Get Free Design Consultation</a>
             <a href="/products" class="btn" style="background: transparent; color: #1f3a5d; padding: 12px 30px; border: 2px solid #1f3a5d; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Explore Kitchen Packages</a>
         </div>
@@ -17,10 +17,10 @@
 </section>
 
 <!-- About Section -->
-<section style="padding: 80px 20px; background: #f8f9fa;">
+<section class="home-about-section" style="padding: 80px 20px; background: #f8f9fa;">
     <div class="container" style="max-width: 1200px; margin: 0 auto;">
-        <h2 style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 50px; color: #2c3e50;">Build a Kitchen That Reflects Your Lifestyle</h2>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;">
+        <h2 class="home-about-heading" style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 50px; color: #2c3e50;">Build a Kitchen That Reflects Your Lifestyle</h2>
+        <div class="home-about-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;">
             <div>
                 <img src="frontend/img/portfolio/2.jpg" alt="Kitchen Design" style="width: 100%; border-radius: 8px;">
             </div>
@@ -40,10 +40,10 @@
 </section>
 
 <!-- Features Section -->
-<section style="padding: 80px 20px; background: white;">
+<section class="home-features-section" style="padding: 80px 20px; background: white;">
     <div class="container" style="max-width: 1200px; margin: 0 auto;">
-        <h2 style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 50px; color: #2c3e50;">Why Homeowners Choose Velsuma</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+        <h2 class="home-features-heading" style="font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 50px; color: #2c3e50;">Why Homeowners Choose Velsuma</h2>
+        <div class="home-features-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
             <!-- Feature 1 -->
             <div style="padding: 30px; background: #f8f9fa; border-radius: 8px; text-align: center;">
                 <img src="frontend/img/icon/design.png" alt="Customized" style="width: 80px; height: 80px; margin-bottom: 20px;">
@@ -79,11 +79,11 @@
 </section>
 
 <!-- CTA Section -->
-<section style="padding: 60px 20px; background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; text-align: center;">
+<section class="home-cta-section" style="padding: 60px 20px; background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; text-align: center;">
     <div class="container" style="max-width: 800px; margin: 0 auto;">
-        <h2 style="font-size: 32px; font-weight: 700; margin-bottom: 20px;">Ready to Transform Your Kitchen?</h2>
-        <p style="font-size: 16px; margin-bottom: 30px; opacity: 0.9;">Get expert guidance on modular kitchens, premium finishes, and customised solutions for your home.</p>
-        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+        <h2 class="home-cta-title" style="font-size: 32px; font-weight: 700; margin-bottom: 20px;">Ready to Transform Your Kitchen?</h2>
+        <p class="home-cta-desc" style="font-size: 16px; margin-bottom: 30px; opacity: 0.9;">Get expert guidance on modular kitchens, premium finishes, and customised solutions for your home.</p>
+        <div class="home-cta-buttons" style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
             <a href="/contact" class="btn" style="background: #e74c3c; color: white; padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Book Free Consultation</a>
             <a href="/products" class="btn" style="background: transparent; color: #1f3a5d; padding: 12px 30px; border: 2px solid #1f3a5d; border-radius: 4px; text-decoration: none; font-weight: 600; display: inline-block;">Explore Packages</a>
         </div>

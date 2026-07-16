@@ -29,6 +29,14 @@
     <link rel="stylesheet" href="frontend/css/menu.css">
     <link rel="stylesheet" href="frontend/css/style.css">
     <link rel="stylesheet" href="frontend/css/responsive.css">
+    <!-- Page-specific responsive CSS -->
+    <link rel="stylesheet" href="frontend/css/responsive-home.css">
+    <link rel="stylesheet" href="frontend/css/responsive-about.css">
+    <link rel="stylesheet" href="frontend/css/responsive-products.css">
+    <link rel="stylesheet" href="frontend/css/responsive-services.css">
+    <link rel="stylesheet" href="frontend/css/responsive-process.css">
+    <link rel="stylesheet" href="frontend/css/responsive-contact.css">
+    <link rel="stylesheet" href="frontend/css/responsive-faq.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

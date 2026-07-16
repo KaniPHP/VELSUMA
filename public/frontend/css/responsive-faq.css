@@ -1,0 +1,25 @@
+/* ========================================
+   RESPONSIVE - FAQ PAGE
+   ======================================== */
+
+@media only screen and (max-width: 991px) {
+  .faq-hero-title { font-size: 36px !important; }
+}
+
+@media only screen and (max-width: 768px) {
+  .faq-hero-title { font-size: 32px !important; }
+}
+
+@media only screen and (max-width: 576px) {
+  .faq-hero-section { padding: 60px 16px !important; }
+  .faq-hero-title { font-size: 26px !important; }
+  .faq-section { padding: 50px 16px !important; }
+  .faq-question-title { font-size: 14px !important; }
+  .faq-cta-section { padding: 40px 16px !important; }
+  .faq-cta-title { font-size: 24px !important; }
+}
+
+@media only screen and (max-width: 375px) {
+  .faq-hero-title { font-size: 22px !important; }
+  .faq-cta-title { font-size: 20px !important; }
+}

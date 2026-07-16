@@ -1,0 +1,38 @@
+/* ========================================
+   RESPONSIVE - CONTACT PAGE
+   ======================================== */
+
+@media only screen and (max-width: 991px) {
+  .contact-hero-title { font-size: 36px !important; }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-hero-title { font-size: 32px !important; }
+  .contact-main-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+  .contact-form-title { font-size: 26px !important; }
+  .contact-info-title { font-size: 26px !important; }
+}
+
+@media only screen and (max-width: 576px) {
+  .contact-hero-section { padding: 60px 16px !important; }
+  .contact-hero-title { font-size: 26px !important; }
+  .contact-section { padding: 50px 16px !important; }
+  .contact-form-title { font-size: 22px !important; }
+  .contact-info-title { font-size: 22px !important; }
+  .contact-next-section { padding: 50px 16px !important; }
+  .contact-next-heading { font-size: 24px !important; }
+  .contact-serve-section { padding: 50px 16px !important; }
+  .contact-serve-heading { font-size: 24px !important; }
+  .contact-cta-section { padding: 40px 16px !important; }
+  .contact-cta-title { font-size: 24px !important; }
+  .contact-cta-buttons { flex-direction: column !important; align-items: center !important; }
+  .contact-cta-buttons .btn { width: 100%; max-width: 280px; }
+}
+
+@media only screen and (max-width: 375px) {
+  .contact-hero-title { font-size: 22px !important; }
+  .contact-form-title { font-size: 20px !important; }
+  .contact-info-title { font-size: 20px !important; }
+  .contact-next-heading { font-size: 20px !important; }
+  .contact-serve-heading { font-size: 20px !important; }
+}
