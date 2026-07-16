@@ -5,6 +5,7 @@
 @media only screen and (max-width: 991px) {
   .services-hero-title { font-size: 36px !important; }
   .services-cards { gap: 20px !important; }
+  .services-card { flex: 0 0 calc((100% - 40px)/2) !important; min-width: calc((100% - 40px)/2) !important; }
   .services-why-grid { grid-template-columns: 1fr !important; gap: 30px !important; }
   .services-process-grid { grid-template-columns: repeat(2, 1fr) !important; }
 }
@@ -18,11 +19,24 @@
 @media only screen and (max-width: 576px) {
   .services-hero-section { padding: 60px 16px !important; }
   .services-hero-title { font-size: 26px !important; }
+  .services-hero-desc { font-size: 15px !important; }
   .services-section { padding: 50px 16px !important; }
+  .services-cards {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+    overflow-x: visible !important;
+    padding-bottom: 0 !important;
+  }
+  .services-card {
+    flex: none !important;
+    min-width: auto !important;
+    padding: 30px !important;
+  }
   .services-why-section { padding: 50px 16px !important; }
-  .services-why-heading { font-size: 24px !important; }
+  .services-why-heading { font-size: 24px !important; margin-bottom: 30px !important; }
   .services-process-section { padding: 50px 16px !important; }
-  .services-process-heading { font-size: 24px !important; }
+  .services-process-heading { font-size: 24px !important; margin-bottom: 40px !important; }
   .services-cta-section { padding: 40px 16px !important; }
   .services-cta-title { font-size: 24px !important; }
 }

@@ -5,7 +5,7 @@
 <section class="services-hero-section" style="background: linear-gradient(135deg, #f5fbff 0%, #d8f0ff 100%); color: #1f3a5d; padding: 80px 20px; text-align: center;">
     <div class="container" style="max-width: 1000px; margin: 0 auto;">
         <h1 class="services-hero-title" style="font-size: 48px; font-weight: 700; margin-bottom: 20px;">Our Services</h1>
-        <p style="font-size: 18px; color: #1f3a5d; line-height: 1.6;">End-to-End Interior Solutions from Concept to Completion</p>
+        <p class="services-hero-desc" style="font-size: 18px; color: #1f3a5d; line-height: 1.6;">End-to-End Interior Solutions from Concept to Completion</p>
     </div>
 </section>
 
@@ -36,7 +36,7 @@ scroll-behavior:smooth;
 padding-bottom:20px;">
 
 <!-- Card -->
-<div style="
+<div class="services-card" style="
 flex:0 0 calc((100% - 60px)/3);
 min-width:calc((100% - 60px)/3);
 padding:40px;
@@ -59,7 +59,7 @@ Customized kitchen planning with intelligent layouts, premium materials, and sea
 </div>
 
 <!-- Service 2 -->
-<div style="
+<div class="services-card" style="
 flex:0 0 calc((100% - 60px)/3);
 min-width:calc((100% - 60px)/3);
 padding:40px;
@@ -82,7 +82,7 @@ Expert guidance for selecting materials, finishes, colors, and modern concepts.
 </div>
 
 <!-- Service 3 -->
-<div style="
+<div class="services-card" style="
 flex:0 0 calc((100% - 60px)/3);
 min-width:calc((100% - 60px)/3);
 padding:40px;
@@ -105,7 +105,7 @@ Professional installation support for soffit ceilings and wall-cladding.
 </div>
 
 <!-- Service 4 -->
-<div style="
+<div class="services-card" style="
 flex:0 0 calc((100% - 60px)/3);
 min-width:calc((100% - 60px)/3);
 padding:40px;
@@ -128,7 +128,7 @@ Precision flooring installation with clean finishing.
 </div>
 
 <!-- Service 5 -->
-<div style="
+<div class="services-card" style="
 flex:0 0 calc((100% - 60px)/3);
 min-width:calc((100% - 60px)/3);
 padding:40px;
